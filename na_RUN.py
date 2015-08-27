@@ -22,8 +22,7 @@ def count_word():
 
 
 def sort_data():
-    test_word.sort()
-    print(test_word)
+    print(sorted(test_word.items(), key=lambda x: x[1]))
 
 count_word()
 sort_data()
